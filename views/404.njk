@@ -1,0 +1,24 @@
+{% set page = '404' %}
+{% extends 'layouts/master.njk' %}
+
+{%block content %}
+<section class="error-section sec-padd2">
+    <div class="container">
+        <div class="row">
+        <div class="column text-center">
+            <h1 class="error-title">404</h1>
+        </div>
+        </div>
+        <div class="row">
+        <div class="column text-center">
+            <h1 class="error-subtitle">Hi. Sorry, we couldn't find the page you are looking for.</h1>
+        </div>
+        </div>
+        <div class="row">
+        <div class="column text-center">
+            <a href="/" class="thm-btn">Go to Home</a>
+        </div>
+        </div>
+    </div>
+</section>
+{%endblock%}

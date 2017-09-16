@@ -1,0 +1,26 @@
+{
+    "name": "kings-erudite",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www"
+    },
+    "dependencies": {
+        "body-parser": "~1.17.1",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.3",
+        "express": "~4.15.2",
+        "morgan": "~1.8.1",
+        "nunjucks": "^3.0.1",
+        "serve-favicon": "~2.4.2"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-jscs": "^4.0.0",
+        "gulp-jshint": "^2.0.4",
+        "gulp-nodemon": "^2.2.0",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.5",
+        "jshint-stylish": "^2.2.1"
+    }
+}

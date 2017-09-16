@@ -1,0 +1,59 @@
+<section class="theme_menu stricky">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="main-logo">
+                    <a href="/"><img src="/images/logo/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-8 menu-column">
+                <nav class="menuzord" id="main_menu">
+                    <ul class="menuzord-menu pull-right">
+                        <li class="{%if page == null or page == 'home' %}active{% endif %}"><a href="/">Home</a></li>
+
+                        <li class="{%if page and page.includes('about') %}active{% endif %}"><a href="#">About us</a>
+                            <ul class="dropdown">
+                                <li class="{%if page == 'about.about' %}active{% endif %}"><a href="/about">About us</a></li>
+                                <li class="{%if page == 'about.team' %}active{% endif %}"><a href="/team">Meet Our Team</a></li>
+                                <li class="{%if page == 'about.faq' %}active{% endif %}"><a href="/faq">FAQ’s</a></li>
+                                <li class="{%if page == 'about.testimonials' %}active{% endif %}"><a href="/testimonials">Client Feedback</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="{%if page and page.includes('services') %}active{% endif %}"><a href="#">Services</a>
+                            <ul class="dropdown">
+                                <li class="{%if page == 'services.education' %}active{% endif %}"><a href="/services/education">Educational Consultation</a></li>
+                                <li class="{%if page == 'services.visa' %}active{% endif %}"><a href="/services/visa">Visa Application Guidance</a></li>
+                                <li class="{%if page == 'services.travel' %}active{% endif %}"><a href="/services/travel">Travel Guidance</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li class="{%if page == 'blog' %}active{% endif %}"><a href="/blog">Blog</a></li>
+
+                        <li class="{%if page == 'contact' %}active{% endif %}"><a href="/contact">Contact us</a></li>
+                    </ul>
+                    <!-- End of .menuzord-menu -->
+                </nav>
+                <!-- End of #main_menu -->
+            </div>
+            {# <div class="right-column">
+                <div class="right-area">
+                    <div class="nav_side_content">
+                        <div class="search_option">
+                            <button class="search tran3s dropdown-toggle color1_bg" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            <form action="#" class="dropdown-menu" aria-labelledby="searchDropdown">
+                                <input type="text" placeholder="Search...">
+                                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div> #}
+        </div>
+
+
+    </div>
+    <!-- End of .conatiner -->
+</section>
